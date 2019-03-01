@@ -3,10 +3,8 @@
 #include <iostream>
 #include "rational.h"
 
-Rational::Rational()
+Rational::Rational(): numerator_(0), denominator_(1)
 {
-    numerator_ = 0;
-    denominator_ = 1;
 }
 
 Rational::Rational(int numerator, int denominator) :
